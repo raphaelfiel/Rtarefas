@@ -3,8 +3,6 @@ const botaoAdicionar = document.getElementById("adicionarElemento")
 botaoAdicionar.addEventListener('click', exibir_data);
 
 var NumeradorTarefas = [];
-var numTarefa = [];
-var aux = 0;
 
 var agenda = {
     input_date: document.getElementById("valor_data"),
